@@ -4,7 +4,7 @@
 	- MySQL
 	
 ## Freamework
- - Laravel - 7.30.1
+ - Laravel - 7.30.6
  
 ## How to run the app
 	1. Create database “frogs” and link database in .env
@@ -16,13 +16,11 @@
 		c. install vendors
 			i. composer install
 	3. Run database migrations and seeds
-           a. php artisan:migrate –seed
+           a. php artisan migrate
+		   b. php artisan db:seed
 	4. Congrats, all done. Let’s run the app 
-		a. run php artian serve
+		a. php artisan serve
 		b. access app using your favourite browser
-	5. use below credentials to access the app
-		username: admin@frogmanager.com
-		password: 123456789
 		
 Having trouble ? feel free to check official [installation guide](https://laravel.com/docs/8.x/installation)
 		
