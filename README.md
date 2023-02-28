@@ -16,8 +16,8 @@
 		c. install vendors
 			i. composer install
 	3. Run database migrations and seeds
-           a. php artisan migrate
-		   b. php artisan db:seed
+        a. php artisan migrate
+	    b. php artisan db:seed
 	4. Congrats, all done. Let’s run the app 
 		a. php artisan serve
 		b. access app using your favourite browser
