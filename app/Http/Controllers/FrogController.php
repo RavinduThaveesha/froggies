@@ -29,8 +29,6 @@ class FrogController extends Controller
      */
     public function __construct(FrogService $frogService, TypeService $typeService)
     {
-        $this->middleware('auth');
-
         $this->frogService = $frogService;
         $this->typeService = $typeService;
     }

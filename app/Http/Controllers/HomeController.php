@@ -22,8 +22,6 @@ class HomeController extends Controller
      */
     public function __construct(WeatherService $weatherService)
     {
-        $this->middleware('auth');
-
         $this->weatherService = $weatherService;
     }
 

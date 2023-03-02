@@ -30,8 +30,6 @@ class MateController extends Controller
      */
     public function __construct(MateService $mateService, FrogService $frogService)
     {
-        $this->middleware('auth');
-
         $this->mateService = $mateService;
         $this->frogService = $frogService;
     }
